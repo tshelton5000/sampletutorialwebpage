@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Noto+Serif+KR" rel="stylesheet">
+  <link rel="stylesheet" href="tutorial.css" type="text/css">
+  <title>JavaScript Tutorial</title>
+</head>
+<body>
+  <header>
+    <div class='imageContainer' id="firstImgContainer">
+      <img src="./assets/facebook-logo-button (1).png" alt="facebookIcon" class="socialMedia">
+    </div>
+    <div class='imageContainer'>
+      <img src="./assets/twitter-logo-silhouette.png" alt="twitterIcon" class="socialMedia">
+    </div>
+    <div class='imageContainer'>
+      <img src="./assets/instagram-logo (1).png" alt="instagramIcon" class="socialMedia">
+    </div>
+    <br>
+    <h1 class="testing">JavaScript Tutorial</h1>
+    <input type="text" placeholder="Search...">
+  </header>
+  <div id="infoBucket">
+    <div class='jsConcept'>
+      <h3>Functions</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac euismod erat. In vestibulum diam nec ante pulvinar, nec fermentum est dignissim. Etiam in augue a sem auctor placerat at at neque. Cras viverra eu massa laoreet consequat. Quisque eget rutrum sem. Aenean consectetur elit lectus, sed porttitor magna ultricies in. Duis placerat ligula ac pulvinar mollis. Nulla vel est sed elit tincidunt commodo.</p>
+      <pre><code>
+        function sample(argumentA, argumentB) {
+          if (argumentA > argumentB) {
+            return argumentA;
+          } else {
+            return argumentB;
+          }
+        }
+      </code></pre>
+    </div>
+    <div class='jsConcept'>
+      <h3>Objects</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac euismod erat. In vestibulum diam nec ante pulvinar, nec fermentum est dignissim. Etiam in augue a sem auctor placerat at at neque. Cras viverra eu massa laoreet consequat. Quisque eget rutrum sem. Aenean consectetur elit lectus, sed porttitor magna ultricies in. Duis placerat ligula ac pulvinar mollis. Nulla vel est sed elit tincidunt commodo.</p>
+      <pre><code>
+        let sampleObject = {
+          key1: 'string',
+          key2: 572,
+          key3: ['string', 572, undefined, ['string', 572]],
+          key4: {innerKey: 'string'}
+        }
+
+        console.log(sampleObject.key2);
+
+        console.log(sampleObject.key3[1]);
+      </code></pre>
+    </div>
+    <div class='jsConcept'>
+      <h3>Arrays</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac euismod erat. In vestibulum diam nec ante pulvinar, nec fermentum est dignissim. Etiam in augue a sem auctor placerat at at neque. Cras viverra eu massa laoreet consequat. Quisque eget rutrum sem. Aenean consectetur elit lectus, sed porttitor magna ultricies in. Duis placerat ligula ac pulvinar mollis. Nulla vel est sed elit tincidunt commodo.</p>
+      <pre><code>
+        let sampleArr = [572, 'string', undefined, {key: 'string'}, 572];
+
+        console.log(sampleArr[3])
+      </code></pre>
+    </div>
+  </div>
+  <footer>
+    <pre>© Somebody Productions  |  Last Edit: 09/2018  |  Icons provided by FlatIcon  |  JavaScript Rules!</pre>
+  </footer>
+</body>
+</html>
